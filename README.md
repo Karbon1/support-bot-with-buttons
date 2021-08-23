@@ -5,9 +5,9 @@ You Can Easily Fork This Code And Edit The Config and Host.
 
 # Requirements
 
-Node JS Version ^16.0.0
-If you Can't install Node v16.
-You can Try The Old Release [Here](https://github.com/Abdul1810/support-bot-with-buttons/releases/tag/1.1.0)
+Node JS Version ^16.0.0\n
+If you Can't install Node v16.\n
+You can Try The Old Release [Here](https://github.com/Abdul1810/support-bot-with-buttons/releases/tag/1.1.0)\n
 
 # Instructions
 
