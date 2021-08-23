@@ -3,6 +3,12 @@ A Support Bot For Your Server.Easy To Host.Work with Buttons Interaction.
 
 You Can Easily Fork This Code And Edit The Config and Host.
 
+# Requirements
+
+Node JS Version ^16.0.0
+If you Can't install Node v16.
+You can Try The Old Release [Here](https://github.com/Abdul1810/support-bot-with-buttons/releases/tag/1.1.0)
+
 # Instructions
 
 Download This Repo [Here](https://github.com/Abdul1810/support-bot-with-buttons/archive/refs/heads/main.zip)
