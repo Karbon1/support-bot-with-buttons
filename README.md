@@ -9,7 +9,7 @@ Node JS Version ^16.0.0
 
 If you Can't install Node v16.
 
-You can Try The Old Release [Here](https://github.com/Abdul1810/support-bot-with-buttons/releases/tag/1.1.0)
+You can Try The Old Release [Here](https://github.com/Abdul1810/support-bot-with-buttons/tree/discordjs-v12)
 
 
 # Instructions
