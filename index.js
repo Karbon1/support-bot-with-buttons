@@ -155,7 +155,7 @@ client.on("interactionCreate", async (interaction) => {
 		}
 		if (interaction.customId === "none_of_the_above") {
 			responseembed.description = `**Go to <#${config.assistance_channel_id}> Channel and ask Your Questions.**`
-			interaction.guild.members.cache.get(interaction.user.id).roles.add('856799419402813440')
+			interaction.guild.members.cache.get(interaction.user.id).roles.add(config.assistance_role_id)
 			interaction.guild.channels.cache.get(config.assistance_channel_id).send(`<@${interaction.user.id}> Here you can Ask your Further Questions.`)
 			logchannel.send(`> **${interaction.user.username + "#" + interaction.user.discriminator}**(${interaction.user.id}) Used ${interaction.customId}\nTimeStamp: ${new Date()}`)
 			return interaction.reply({ embeds: [responseembed], ephemeral: true })
