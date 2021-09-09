@@ -142,7 +142,7 @@ client.on('clickButton', async (button) => {
 	}
 	if (button.id === "none_of_the_above") {
 		responseembed.description = `**Go to <#${config.assistance_channel_id}> Channel and ask Your Questions.**`
-		button.guild.members.cache.get(button.clicker.user.id).roles.add('856799419402813440')
+		button.guild.members.cache.get(button.clicker.user.id).roles.add(config.assistance_role_id)
 		button.guild.channels.cache.get(config.assistance_channel_id).send(`<@${button.clicker.user.id}> Here you can Ask your Further Questions.`)
 		logchannel.send(`> **${button.clicker.user.username + "#" + button.clicker.user.discriminator}**(${button.clicker.user.id}) Used ${button.id}\nTimeStamp: ${new Date()}`)
 		return button.reply.send('',{ embed: responseembed, ephemeral: true })
