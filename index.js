@@ -219,7 +219,7 @@ client.on("messageCreate", async (msg) => {
 				text: msg.guild.name
 			}
 		}
-		return msg.channel.send({ embeds: [supportembed], components: [buttonRow, buttonRow2] })
+		return msg.channel.send({ embeds: [supportembed], components: [buttonRow1, buttonRow2] })
 	} else return
 })
 
