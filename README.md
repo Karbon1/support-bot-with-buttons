@@ -40,8 +40,6 @@ Important Notes :
 
 # Support
 
-Support Server - [Click Here](https://discord.gg/sAMznQK2NG)
-
 My Discord - [Abdul#5464](https://discord.com/users/737553088218529813)
 
 # Feature Request

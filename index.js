@@ -224,7 +224,7 @@ client.on("messageCreate", async (msg) => {
 })
 
 //Bot Coded By Abdul#5464
-//For Support Join Support Server https://discord.gg/sAMznQK2NG
+//For Support Dm Me (https://discord.com/users/737553088218529813)
 //For Feature Request Open a Pull Request
 
 client.login(config.token).catch(() => console.log('Invalid Token.Make Sure To Fill config.json'))
