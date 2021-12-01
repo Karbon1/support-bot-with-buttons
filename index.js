@@ -104,7 +104,7 @@ client.on("interactionCreate", async (interaction) => {
 	
 	if (interaction.isCommand()) {
 		if (!owners.includes(interaction.user.id)) {
-			await interaction.reply({ content: "You aren\'t Authorized To use This Command!", ephemeral: true })
+			return await interaction.reply({ content: "You aren\'t Authorized To use This Command!", ephemeral: true })
 		}
 
 		await interaction.reply({ embeds: [SupportEmbed], components: [buttonRow1, buttonRow2] })
